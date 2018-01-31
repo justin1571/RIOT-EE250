@@ -236,7 +236,7 @@ void print_rss(msg_t *msg)
          * changes to help you finish the lab faster 
         */
 <<<<<<< HEAD
-        printf("%f\n", hdr->rssi - CC2538_RSSI_OFFSET;); 
+        printf("%f\n", hdr->rssi - CC2538_RSSI_OFFSET); 
 =======
 	uint32_t rss = hdr->rssi - CC2538_RSSI_OFFSET; 
 	printf("%d\n", rss);
